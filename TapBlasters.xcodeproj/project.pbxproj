@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC7992F91901CD810070E2D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7992F81901CD810070E2D8 /* Foundation.framework */; };
+		AC7992FB1901CD810070E2D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7992FA1901CD810070E2D8 /* CoreGraphics.framework */; };
+		AC7992FD1901CD810070E2D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7992FC1901CD810070E2D8 /* UIKit.framework */; };
+		AC7992FF1901CD810070E2D8 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7992FE1901CD810070E2D8 /* SpriteKit.framework */; };
+		AC7993051901CD810070E2D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC7993031901CD810070E2D8 /* InfoPlist.strings */; };
+		AC7993071901CD810070E2D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7993061901CD810070E2D8 /* main.m */; };
+		AC79930B1901CD810070E2D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC79930A1901CD810070E2D8 /* AppDelegate.m */; };
+		AC79930E1901CD810070E2D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC79930C1901CD810070E2D8 /* Main.storyboard */; };
+		AC7993111901CD810070E2D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7993101901CD810070E2D8 /* ViewController.m */; };
+		AC7993141901CD810070E2D8 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7993131901CD810070E2D8 /* MyScene.m */; };
+		AC7993161901CD810070E2D8 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7993151901CD810070E2D8 /* Spaceship.png */; };
+		AC7993181901CD810070E2D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7993171901CD810070E2D8 /* Images.xcassets */; };
+		AC79931F1901CD810070E2D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC79931E1901CD810070E2D8 /* XCTest.framework */; };
+		AC7993201901CD810070E2D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7992F81901CD810070E2D8 /* Foundation.framework */; };
+		AC7993211901CD810070E2D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC7992FC1901CD810070E2D8 /* UIKit.framework */; };
+		AC7993291901CD810070E2D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC7993271901CD810070E2D8 /* InfoPlist.strings */; };
+		AC79932B1901CD810070E2D8 /* TapBlastersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC79932A1901CD810070E2D8 /* TapBlastersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC7993221901CD810070E2D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7992ED1901CD810070E2D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC7992F41901CD810070E2D8;
+			remoteInfo = TapBlasters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC7992F51901CD810070E2D8 /* TapBlasters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapBlasters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7992F81901CD810070E2D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC7992FA1901CD810070E2D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC7992FC1901CD810070E2D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC7992FE1901CD810070E2D8 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		AC7993021901CD810070E2D8 /* TapBlasters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapBlasters-Info.plist"; sourceTree = "<group>"; };
+		AC7993041901CD810070E2D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC7993061901CD810070E2D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC7993081901CD810070E2D8 /* TapBlasters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapBlasters-Prefix.pch"; sourceTree = "<group>"; };
+		AC7993091901CD810070E2D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC79930A1901CD810070E2D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC79930D1901CD810070E2D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC79930F1901CD810070E2D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC7993101901CD810070E2D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC7993121901CD810070E2D8 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		AC7993131901CD810070E2D8 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		AC7993151901CD810070E2D8 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		AC7993171901CD810070E2D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC79931D1901CD810070E2D8 /* TapBlastersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapBlastersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC79931E1901CD810070E2D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AC7993261901CD810070E2D8 /* TapBlastersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapBlastersTests-Info.plist"; sourceTree = "<group>"; };
+		AC7993281901CD810070E2D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC79932A1901CD810070E2D8 /* TapBlastersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapBlastersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7992F21901CD810070E2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7992FB1901CD810070E2D8 /* CoreGraphics.framework in Frameworks */,
+				AC7992FD1901CD810070E2D8 /* UIKit.framework in Frameworks */,
+				AC7992FF1901CD810070E2D8 /* SpriteKit.framework in Frameworks */,
+				AC7992F91901CD810070E2D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC79931A1901CD810070E2D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC79931F1901CD810070E2D8 /* XCTest.framework in Frameworks */,
+				AC7993211901CD810070E2D8 /* UIKit.framework in Frameworks */,
+				AC7993201901CD810070E2D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7992EC1901CD810070E2D8 = {
+			isa = PBXGroup;
+			children = (
+				AC7993001901CD810070E2D8 /* TapBlasters */,
+				AC7993241901CD810070E2D8 /* TapBlastersTests */,
+				AC7992F71901CD810070E2D8 /* Frameworks */,
+				AC7992F61901CD810070E2D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7992F61901CD810070E2D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7992F51901CD810070E2D8 /* TapBlasters.app */,
+				AC79931D1901CD810070E2D8 /* TapBlastersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7992F71901CD810070E2D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC7992F81901CD810070E2D8 /* Foundation.framework */,
+				AC7992FA1901CD810070E2D8 /* CoreGraphics.framework */,
+				AC7992FC1901CD810070E2D8 /* UIKit.framework */,
+				AC7992FE1901CD810070E2D8 /* SpriteKit.framework */,
+				AC79931E1901CD810070E2D8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC7993001901CD810070E2D8 /* TapBlasters */ = {
+			isa = PBXGroup;
+			children = (
+				AC7993091901CD810070E2D8 /* AppDelegate.h */,
+				AC79930A1901CD810070E2D8 /* AppDelegate.m */,
+				AC79930C1901CD810070E2D8 /* Main.storyboard */,
+				AC79930F1901CD810070E2D8 /* ViewController.h */,
+				AC7993101901CD810070E2D8 /* ViewController.m */,
+				AC7993121901CD810070E2D8 /* MyScene.h */,
+				AC7993131901CD810070E2D8 /* MyScene.m */,
+				AC7993151901CD810070E2D8 /* Spaceship.png */,
+				AC7993171901CD810070E2D8 /* Images.xcassets */,
+				AC7993011901CD810070E2D8 /* Supporting Files */,
+			);
+			path = TapBlasters;
+			sourceTree = "<group>";
+		};
+		AC7993011901CD810070E2D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC7993021901CD810070E2D8 /* TapBlasters-Info.plist */,
+				AC7993031901CD810070E2D8 /* InfoPlist.strings */,
+				AC7993061901CD810070E2D8 /* main.m */,
+				AC7993081901CD810070E2D8 /* TapBlasters-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC7993241901CD810070E2D8 /* TapBlastersTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC79932A1901CD810070E2D8 /* TapBlastersTests.m */,
+				AC7993251901CD810070E2D8 /* Supporting Files */,
+			);
+			path = TapBlastersTests;
+			sourceTree = "<group>";
+		};
+		AC7993251901CD810070E2D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC7993261901CD810070E2D8 /* TapBlastersTests-Info.plist */,
+				AC7993271901CD810070E2D8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7992F41901CD810070E2D8 /* TapBlasters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC79932E1901CD810070E2D8 /* Build configuration list for PBXNativeTarget "TapBlasters" */;
+			buildPhases = (
+				AC7992F11901CD810070E2D8 /* Sources */,
+				AC7992F21901CD810070E2D8 /* Frameworks */,
+				AC7992F31901CD810070E2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapBlasters;
+			productName = TapBlasters;
+			productReference = AC7992F51901CD810070E2D8 /* TapBlasters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC79931C1901CD810070E2D8 /* TapBlastersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7993311901CD810070E2D8 /* Build configuration list for PBXNativeTarget "TapBlastersTests" */;
+			buildPhases = (
+				AC7993191901CD810070E2D8 /* Sources */,
+				AC79931A1901CD810070E2D8 /* Frameworks */,
+				AC79931B1901CD810070E2D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC7993231901CD810070E2D8 /* PBXTargetDependency */,
+			);
+			name = TapBlastersTests;
+			productName = TapBlastersTests;
+			productReference = AC79931D1901CD810070E2D8 /* TapBlastersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7992ED1901CD810070E2D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Team1;
+				TargetAttributes = {
+					AC79931C1901CD810070E2D8 = {
+						TestTargetID = AC7992F41901CD810070E2D8;
+					};
+				};
+			};
+			buildConfigurationList = AC7992F01901CD810070E2D8 /* Build configuration list for PBXProject "TapBlasters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7992EC1901CD810070E2D8;
+			productRefGroup = AC7992F61901CD810070E2D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7992F41901CD810070E2D8 /* TapBlasters */,
+				AC79931C1901CD810070E2D8 /* TapBlastersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7992F31901CD810070E2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7993051901CD810070E2D8 /* InfoPlist.strings in Resources */,
+				AC7993181901CD810070E2D8 /* Images.xcassets in Resources */,
+				AC7993161901CD810070E2D8 /* Spaceship.png in Resources */,
+				AC79930E1901CD810070E2D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC79931B1901CD810070E2D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7993291901CD810070E2D8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7992F11901CD810070E2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7993141901CD810070E2D8 /* MyScene.m in Sources */,
+				AC7993111901CD810070E2D8 /* ViewController.m in Sources */,
+				AC79930B1901CD810070E2D8 /* AppDelegate.m in Sources */,
+				AC7993071901CD810070E2D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7993191901CD810070E2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC79932B1901CD810070E2D8 /* TapBlastersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC7993231901CD810070E2D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC7992F41901CD810070E2D8 /* TapBlasters */;
+			targetProxy = AC7993221901CD810070E2D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC7993031901CD810070E2D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7993041901CD810070E2D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC79930C1901CD810070E2D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC79930D1901CD810070E2D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC7993271901CD810070E2D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC7993281901CD810070E2D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC79932C1901CD810070E2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC79932D1901CD810070E2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC79932F1901CD810070E2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapBlasters/TapBlasters-Prefix.pch";
+				INFOPLIST_FILE = "TapBlasters/TapBlasters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC7993301901CD810070E2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapBlasters/TapBlasters-Prefix.pch";
+				INFOPLIST_FILE = "TapBlasters/TapBlasters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC7993321901CD810070E2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapBlasters.app/TapBlasters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapBlasters/TapBlasters-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TapBlastersTests/TapBlastersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AC7993331901CD810070E2D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapBlasters.app/TapBlasters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapBlasters/TapBlasters-Prefix.pch";
+				INFOPLIST_FILE = "TapBlastersTests/TapBlastersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7992F01901CD810070E2D8 /* Build configuration list for PBXProject "TapBlasters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC79932C1901CD810070E2D8 /* Debug */,
+				AC79932D1901CD810070E2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC79932E1901CD810070E2D8 /* Build configuration list for PBXNativeTarget "TapBlasters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC79932F1901CD810070E2D8 /* Debug */,
+				AC7993301901CD810070E2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC7993311901CD810070E2D8 /* Build configuration list for PBXNativeTarget "TapBlastersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7993321901CD810070E2D8 /* Debug */,
+				AC7993331901CD810070E2D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7992ED1901CD810070E2D8 /* Project object */;
+}
