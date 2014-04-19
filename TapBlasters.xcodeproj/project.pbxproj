@@ -49,6 +49,15 @@
 		AC79936A1901CEAB0070E2D8 /* shake.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC7993511901CEAB0070E2D8 /* shake.caf */; };
 		AC79936B1901CEAB0070E2D8 /* SpaceGame.caf in Resources */ = {isa = PBXBuildFile; fileRef = AC7993521901CEAB0070E2D8 /* SpaceGame.caf */; };
 		AC79936C1901CEAB0070E2D8 /* SpaceShooter.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AC7993531901CEAB0070E2D8 /* SpaceShooter.atlas */; };
+		AC9BBADC1901EC6B006A35EA /* SeanHeadSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBADB1901EC6B006A35EA /* SeanHeadSmall.png */; };
+		AC9BBAE31901F4C3006A35EA /* KateHeadMed.psd in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBADD1901F4C3006A35EA /* KateHeadMed.psd */; };
+		AC9BBAE41901F4C3006A35EA /* VanHeadMed.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBADE1901F4C3006A35EA /* VanHeadMed.png */; };
+		AC9BBAE51901F4C3006A35EA /* MelindaHeadMed.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBADF1901F4C3006A35EA /* MelindaHeadMed.png */; };
+		AC9BBAE61901F4C3006A35EA /* asteroid_heads.psd in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBAE01901F4C3006A35EA /* asteroid_heads.psd */; };
+		AC9BBAE71901F4C3006A35EA /* WesHeadMed.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBAE11901F4C3006A35EA /* WesHeadMed.png */; };
+		AC9BBAE81901F4C3006A35EA /* JonHeadMed.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBAE21901F4C3006A35EA /* JonHeadMed.png */; };
+		AC9BBAEA1901F658006A35EA /* KateHeadMed.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBAE91901F658006A35EA /* KateHeadMed.png */; };
+		AC9BBAEC1901FC30006A35EA /* icon-large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9BBAEB1901FC30006A35EA /* icon-large@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +120,15 @@
 		AC7993511901CEAB0070E2D8 /* shake.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shake.caf; sourceTree = "<group>"; };
 		AC7993521901CEAB0070E2D8 /* SpaceGame.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpaceGame.caf; sourceTree = "<group>"; };
 		AC7993531901CEAB0070E2D8 /* SpaceShooter.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SpaceShooter.atlas; sourceTree = "<group>"; };
+		AC9BBADB1901EC6B006A35EA /* SeanHeadSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeanHeadSmall.png; sourceTree = "<group>"; };
+		AC9BBADD1901F4C3006A35EA /* KateHeadMed.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = KateHeadMed.psd; sourceTree = "<group>"; };
+		AC9BBADE1901F4C3006A35EA /* VanHeadMed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VanHeadMed.png; sourceTree = "<group>"; };
+		AC9BBADF1901F4C3006A35EA /* MelindaHeadMed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MelindaHeadMed.png; sourceTree = "<group>"; };
+		AC9BBAE01901F4C3006A35EA /* asteroid_heads.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = asteroid_heads.psd; sourceTree = "<group>"; };
+		AC9BBAE11901F4C3006A35EA /* WesHeadMed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WesHeadMed.png; sourceTree = "<group>"; };
+		AC9BBAE21901F4C3006A35EA /* JonHeadMed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JonHeadMed.png; sourceTree = "<group>"; };
+		AC9BBAE91901F658006A35EA /* KateHeadMed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KateHeadMed.png; sourceTree = "<group>"; };
+		AC9BBAEB1901FC30006A35EA /* icon-large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-large@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +237,7 @@
 		AC7993341901CEAB0070E2D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC9BBADA1901EC6B006A35EA /* Tapjoy */,
 				AC7993351901CEAB0070E2D8 /* Backgrounds */,
 				AC79933B1901CEAB0070E2D8 /* Classes */,
 				AC79933E1901CEAB0070E2D8 /* Icons */,
@@ -265,6 +284,7 @@
 		AC7993441901CEAB0070E2D8 /* Particles */ = {
 			isa = PBXGroup;
 			children = (
+				AC9BBAE91901F658006A35EA /* KateHeadMed.png */,
 				AC7993451901CEAB0070E2D8 /* star1.png */,
 				AC7993461901CEAB0070E2D8 /* star2.png */,
 				AC7993471901CEAB0070E2D8 /* star3.png */,
@@ -287,6 +307,21 @@
 				AC7993521901CEAB0070E2D8 /* SpaceGame.caf */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		AC9BBADA1901EC6B006A35EA /* Tapjoy */ = {
+			isa = PBXGroup;
+			children = (
+				AC9BBAEB1901FC30006A35EA /* icon-large@2x.png */,
+				AC9BBADD1901F4C3006A35EA /* KateHeadMed.psd */,
+				AC9BBADE1901F4C3006A35EA /* VanHeadMed.png */,
+				AC9BBADF1901F4C3006A35EA /* MelindaHeadMed.png */,
+				AC9BBAE01901F4C3006A35EA /* asteroid_heads.psd */,
+				AC9BBAE11901F4C3006A35EA /* WesHeadMed.png */,
+				AC9BBAE21901F4C3006A35EA /* JonHeadMed.png */,
+				AC9BBADB1901EC6B006A35EA /* SeanHeadSmall.png */,
+			);
+			path = Tapjoy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,13 +404,18 @@
 				AC7993681901CEAB0070E2D8 /* laser_ship.caf in Resources */,
 				AC7993551901CEAB0070E2D8 /* bg_galaxy.png in Resources */,
 				AC79935F1901CEAB0070E2D8 /* star1.png in Resources */,
+				AC9BBAE71901F4C3006A35EA /* WesHeadMed.png in Resources */,
 				AC7993051901CD810070E2D8 /* InfoPlist.strings in Resources */,
 				AC79935C1901CEAB0070E2D8 /* icon-medium@2x.png in Resources */,
 				AC79935D1901CEAB0070E2D8 /* icon-small.png in Resources */,
+				AC9BBAE51901F4C3006A35EA /* MelindaHeadMed.png in Resources */,
 				AC7993651901CEAB0070E2D8 /* explosion_large.caf in Resources */,
+				AC9BBAE81901F4C3006A35EA /* JonHeadMed.png in Resources */,
+				AC9BBADC1901EC6B006A35EA /* SeanHeadSmall.png in Resources */,
 				AC7993661901CEAB0070E2D8 /* explosion_small.caf in Resources */,
 				AC7993541901CEAB0070E2D8 /* bg_front_spacedust.png in Resources */,
 				AC7993561901CEAB0070E2D8 /* bg_planetsunrise.png in Resources */,
+				AC9BBAE41901F4C3006A35EA /* VanHeadMed.png in Resources */,
 				AC7993181901CD810070E2D8 /* Images.xcassets in Resources */,
 				AC7993671901CEAB0070E2D8 /* laser_enemy.caf in Resources */,
 				AC79936C1901CEAB0070E2D8 /* SpaceShooter.atlas in Resources */,
@@ -383,15 +423,19 @@
 				AC7993641901CEAB0070E2D8 /* stars3.sks in Resources */,
 				AC7993611901CEAB0070E2D8 /* star3.png in Resources */,
 				AC7993691901CEAB0070E2D8 /* powerup.caf in Resources */,
+				AC9BBAE31901F4C3006A35EA /* KateHeadMed.psd in Resources */,
 				AC7993161901CD810070E2D8 /* Spaceship.png in Resources */,
 				AC79936A1901CEAB0070E2D8 /* shake.caf in Resources */,
 				AC7993571901CEAB0070E2D8 /* bg_spacialanomaly.png in Resources */,
 				AC79935B1901CEAB0070E2D8 /* icon-medium.png in Resources */,
+				AC9BBAE61901F4C3006A35EA /* asteroid_heads.psd in Resources */,
 				AC79930E1901CD810070E2D8 /* Main.storyboard in Resources */,
 				AC79935E1901CEAB0070E2D8 /* icon-small@2x.png in Resources */,
+				AC9BBAEA1901F658006A35EA /* KateHeadMed.png in Resources */,
 				AC7993621901CEAB0070E2D8 /* stars1.sks in Resources */,
 				AC7993581901CEAB0070E2D8 /* bg_spacialanomaly2.png in Resources */,
 				AC79935A1901CEAB0070E2D8 /* icon-large@2x.png in Resources */,
+				AC9BBAEC1901FC30006A35EA /* icon-large@2x.png in Resources */,
 				AC7993631901CEAB0070E2D8 /* stars2.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,6 +666,7 @@
 				AC7993301901CD810070E2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC7993311901CD810070E2D8 /* Build configuration list for PBXNativeTarget "TapBlastersTests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +675,7 @@
 				AC7993331901CD810070E2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

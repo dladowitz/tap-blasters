@@ -72,7 +72,7 @@ typedef enum {
         
 #pragma mark - Setup Sprite for the ship
         //Create space sprite, setup position on left edge centers on the scren, and add to scene
-        _ship = [SKSpriteNode spriteNodeWithImageNamed:@"SpaceFlier_sm_1.png"];
+        _ship = [SKSpriteNode spriteNodeWithImageNamed:@"SeanHead"];
         _ship.position = CGPointMake(self.frame.size.width * 0.1, CGRectGetMidY(self.frame));
 
         //move the ship using Sprite Kit's Physics Engine
@@ -87,12 +87,29 @@ typedef enum {
 #pragma mark - TBD - Setup the asteroids
         _asteroids = [[NSMutableArray alloc] initWithCapacity:kNumAsteroids];
         for (int i = 0; i < kNumAsteroids; ++i) {
-            SKSpriteNode *asteroid = [SKSpriteNode spriteNodeWithImageNamed:@"asteroid"];
-            asteroid.hidden = YES;
-            [asteroid setXScale:0.5];
-            [asteroid setYScale:0.5];
-            [_asteroids addObject:asteroid];
-            [self addChild:asteroid];
+            if (i <= 5) {
+                SKSpriteNode *asteroid = [SKSpriteNode spriteNodeWithImageNamed:@"VanHeadMed.png"];
+                asteroid.hidden = YES;
+                [asteroid setXScale:0.5];
+                [asteroid setYScale:0.5];
+                [_asteroids addObject:asteroid];
+                [self addChild:asteroid];
+            } else if (i <= 10) {
+                SKSpriteNode *asteroid = [SKSpriteNode spriteNodeWithImageNamed:@"KateHeadMed.png"];
+                asteroid.hidden = YES;
+                [asteroid setXScale:0.5];
+                [asteroid setYScale:0.5];
+                [_asteroids addObject:asteroid];
+                [self addChild:asteroid];
+            }else {
+                SKSpriteNode *asteroid = [SKSpriteNode spriteNodeWithImageNamed:@"MelindaHeadMed.png"];
+                asteroid.hidden = YES;
+                [asteroid setXScale:0.5];
+                [asteroid setYScale:0.5];
+                [_asteroids addObject:asteroid];
+                [self addChild:asteroid];
+            }
+       
         }
         
 #pragma mark - TBD - Setup the lasers
@@ -177,7 +194,7 @@ typedef enum {
 {
     CMAccelerometerData* data = _motionManager.accelerometerData;
     if (fabs(data.acceleration.x) > 0.2) {
-        NSLog(@"acceleration values = %f - %f",data.acceleration.x, data.acceleration.y);
+//        NSLog(@"acceleration values = %f - %f",data.acceleration.x, data.acceleration.y);
         [_ship.physicsBody applyForce:CGVectorMake(0.0, 40.0 * data.acceleration.x)];
     }
 }
